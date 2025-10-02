@@ -88,8 +88,8 @@ go run ./cmd/mini-portscanner --target 192.168.1.1 --ports 8000-8010 --concurren
 | IP        | Port | Open  | Latency | Error              |
 | --------- | ---- | ----- | ------- | ------------------ |
 | 127.0.0.1 | 22   | false | 1.03ms  | connection refused |
-| 127.0.0.1 | 80   | true  | 0.52ms  | <nil>              |
-| 127.0.0.1 | 8000 | true  | 0.49ms  | <nil>              |
+| 127.0.0.1 | 80   | true  | 0.52ms  | nil              |
+| 127.0.0.1 | 8000 | true  | 0.49ms  | nil              |
 
 **JSON format:**
 
