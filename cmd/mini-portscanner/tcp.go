@@ -23,10 +23,8 @@ func checkTCP(ip string, port int, timeout time.Duration) (bool, time.Duration, 
 	// Immediately conn.Close() (we only needed to know it opened).
 	if err == nil{
 		defer conn.Close()
-		fmt.Println("open: true  latency:"+latency.String()+"  err: <nil>") 
 		return true, latency, nil
 	}else{
-		fmt.Println("open: false  latency:"+latency.String()+"  err: "+err.Error())
 		return false, latency, err
 	}
 
