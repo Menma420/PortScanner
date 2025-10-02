@@ -125,5 +125,3 @@ go run ./cmd/mini-portscanner --target 192.168.1.1 --ports 8000-8010 --concurren
 ## ⚠️ Disclaimer
 
 This tool is intended for **educational purposes only**. Only scan systems that you own or have explicit permission to test. Unauthorized scanning may be illegal and is **not condoned**.
-
-Do you want me to do that next?
